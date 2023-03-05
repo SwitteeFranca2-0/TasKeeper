@@ -110,7 +110,7 @@ class TaskKeeper(cmd.Cmd):
             print("ID not found")
     
     def do_all(self, line):
-        """USAGE: all <task class <optional)>"""
+        """USAGE: all <task class(optional)>"""
         objs = storage.all().values()
         if line:
             if line in TaskKeeper.classes.keys():
