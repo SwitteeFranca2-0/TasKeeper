@@ -1,0 +1,121 @@
+
+
+#search {
+    background-image: url('../images/search.png');
+    height: 50px;
+    width: 50px;
+    left: 0px;
+}
+
+.des p{
+    margin-left: 15px;
+    width: 25%;
+    font-size: 10vw;
+    font-family: sans-serif;
+    background: linear-gradient(to right, rgba(255, 215, 255, 0) 0%, rgba(225, 255, 255, 0.5) 20%, rgba(255, 255, 255, 0) 61%), linear-gradient(rgb(241, 40, 181) 52%, rgb(224, 246, 255) 60%, rgb(78, 99, 132) 61%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3em;
+    line-height: 1em;
+    float: left;
+}
+
+.des {
+    display: inline;
+}
+
+.des button{
+    float: left;
+    position: relative;
+    top: 150px;
+    margin-right: 10px;
+    right: 150px;
+    width: 150px;
+    height: 50px;
+    background: linear-gradient(to right, black, grey);
+    border: none;
+}
+#state {
+    margin-top: 30px;
+    text-align: center;
+    font-weight: bold;
+    color:rgb(10, 11, 15)
+}
+
+#used_by {
+    height: 180px;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+#uses {
+    margin-top: 20px;
+    background: linear-gradient(-45deg, rgb(229, 162, 162), #3b393b, #928b9638, #a9a3eb);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#use{
+    background: linear-gradient(-45deg, rgb(229, 162, 162), #3b393b, #928b9638, #a9a3eb);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+    background-image: url('../images/icons8-hourglass-64.png');
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+#todo_web {
+    width: 40%;
+}
+
+#pictures{
+    margin-top: 20px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#info {
+    display: flex;
+    height: 200px;
+    background: linear-gradient(-45deg, rgb(36, 35, 35), #3b393b, #928b9638, #4b4a3f);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+    border-top-right-radius: 35%;
+    border-top-left-radius: 35%;
+    align-items: center;
+    justify-content: space-around;
+    line-height: 0.5em;
+    font-size: 30px;
+    color:silver
+}
+
+#use p {
+    font-size: 55px;
+    color: blueviolet;
+    font-weight: bold;
+    position: relative;
+    bottom: 100px;
+    left: 50px;
+}
+#use li{
+    position: relative;
+    top: 100px;
+    right:6cm;
+    font-size: 15px;
+    color: rgb(197, 202, 211);
+
+}

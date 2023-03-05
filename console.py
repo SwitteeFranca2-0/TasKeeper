@@ -80,7 +80,7 @@ class TaskKeeper(cmd.Cmd):
             return super().do_help('create')
         if len(args) > 2:
             try:
-                obj = TaskKeeper.classes[args[0]](args[1], args[2])
+                obj = TaskKeeper.classes[args[0]](args[1].replace("_", " "), int(args[2]))
                 obj.save()
                 print(obj)
             except ValueError:
