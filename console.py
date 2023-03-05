@@ -84,7 +84,7 @@ class TaskKeeper(cmd.Cmd):
                 obj.save()
                 print(obj)
             except ValueError:
-                print('***Status should be either 0 or 1') #fix this part of code
+                print('***Status should be either 0 or 1') 
         else:
             obj = TaskKeeper.classes[args[0]](args[1])
             obj.save()
